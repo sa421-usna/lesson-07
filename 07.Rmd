@@ -3,7 +3,6 @@ title: "Lesson 7. Putting It All Together"
 author: "Assoc. Prof. D. Phillips and N. Uhan"
 date: "SA421 -- Simulation Modeling -- Fall 2017"
 output:
-  html_document: default
   html_notebook:
     css: css/sa421.css
 ---
@@ -62,12 +61,14 @@ output:
 - Your conclusion should include:
 
     - A summary of the most important points from your output data analysis
-  
-    - Guidance for action based on your output data analysis, with a clear caveat that your conclusions are based on the assumptions and limitations of your simulation study and the scope of the questions asked by the decision maker. For example, suppose that NCB asked whether to have a coffee dispenser line based on the waiting time of the customers. A reasonable conclusion could be the following.
-  
-        > Based on our simulation results, we suggest that NCB have a coffee dispenser line as the simulated average wait times decreased at the barista and cashier queues. However, further analysis would be required to determine the impact of the coffee dispenser line on overall time in system.
 
     - Important limitations of your simulation study
+  
+    - Guidance for action based on your output data analysis, with a clear caveat that your conclusions are based on the assumptions and limitations of your simulation study and the scope of the questions asked by the decision maker. 
+    
+        - For example, suppose that NCB asked whether to have a coffee dispenser line based on the waiting time of the customers. A reasonable conclusion could be the following:
+  
+            > Based on our simulation results, we suggest that NCB have a coffee dispenser line as the simulated average waiting time decreased at the barista and cashier queues. However, further analysis would be required to determine the impact of the coffee dispenser line on a customer's overall time in system.
 
 
 # Making your report presentable
@@ -76,7 +77,7 @@ output:
 
 - Rule of thumb: your report should __not__ include any code or raw output
 
-    - Exceptions: you're writing a report that is teaches the reader about how to write code
+    - Exceptions: you're writing a report about how to write code
 
 - Up to this point, we've been pretty lax about including code and other "detritus" in our reports
 
