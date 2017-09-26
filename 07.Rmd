@@ -3,6 +3,7 @@ title: "Lesson 7. Putting It All Together"
 author: "Assoc. Prof. D. Phillips and N. Uhan"
 date: "SA421 -- Simulation Modeling -- Fall 2017"
 output:
+  html_document: default
   html_notebook:
     css: css/sa421.css
 ---
@@ -62,9 +63,9 @@ output:
 
     - A summary of the most important points from your output data analysis
   
-    - Guidance for action based on your output data analysis, with a clear caveat that your conclusions are based on the assumptions of your simulation study. For example,  
+    - Guidance for action based on your output data analysis, with a clear caveat that your conclusions are based on the assumptions and limitations of your simulation study and the scope of the questions asked by the decision maker. For example, suppose that NCB asked whether to have a coffee dispenser line based on the waiting time of the customers. A reasonable conclusion could be the following.
   
-        > Based on our simulation, ... (fill in later) 
+        > Based on our simulation results, we suggest that NCB have a coffee dispenser line as the simulated average wait times decreased at the barista and cashier queues. However, further analysis would be required to determine the impact of the coffee dispenser line on overall time in system.
 
     - Important limitations of your simulation study
 
@@ -83,6 +84,10 @@ output:
 
 ```{r}
 print("Hello world")
+
+## to get rid of the [1], you can use the function cat, e.g.,
+
+cat("Hello world", "\n")
 ```
 
 - To hide the __code__ from your report, change `{r}` in the first line of the chunk to `{r echo=FALSE}`
