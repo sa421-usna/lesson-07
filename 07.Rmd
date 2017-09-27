@@ -64,7 +64,7 @@ output:
 
     - Important limitations of your simulation study
   
-    - Guidance for action based on your output data analysis, with a clear caveat that your conclusions are based on the assumptions and limitations of your simulation study and the scope of the questions asked by the decision maker. 
+    - Guidance for action based on your output data analysis, with a clear caveat that your conclusions are based on the assumptions and limitations of your simulation study and the scope of the questions asked by the decision maker 
     
         - For example, suppose that NCB asked whether to have a coffee dispenser line based on the waiting time of the customers. A reasonable conclusion could be the following:
   
@@ -77,9 +77,9 @@ output:
 
 - Rule of thumb: your report should __not__ include any code or raw output
 
-    - Exceptions: you're writing a report about how to write code
+    - Exception: you're writing a report about how to write code
 
-- Up to this point, we've been pretty lax about including code and other "detritus" in our reports
+- Up to this point, we've been pretty lax about including code and other detritus in our reports
 
 - It turns out it's pretty easy to hide this stuff - consider the following chunk:
 
